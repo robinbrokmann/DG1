@@ -17,7 +17,7 @@ body {
     margin: 10px auto;
     font-size: 20px;
     font-family: "Arial Black", serif;
-    background: rgba(0, 64, 255, 0.5);
+    background: rgba(0, 64, 255, 0.3);
     border-radius: 10px;
     color: #f2f2f2;
     overflow: hidden;
@@ -47,14 +47,14 @@ body {
 
 
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #675eff;
     color: black;
 }
 
 
 .navbar a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2243af;
+    color: #f9ffef;
 }
 
 .navbar input[type=text] {
@@ -64,4 +64,39 @@ body {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+}
+
+
+
+.container {
+    line-height: 20px;
+    width: 65%;
+    margin: auto auto;
+    height: auto;
+    margin-top: 15px;
+}
+.post {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.post a {
+    text-decoration: none;
+    color: black;
+}
+
+.post a:hover {
+    color: #bebebe
+}
+.postname {
+    width: 70%;
+}
+.replies {
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
