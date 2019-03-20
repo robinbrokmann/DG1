@@ -100,3 +100,83 @@ a {
     text-decoration: none;
     color: black;
 }
+
+table {
+    width: 100%;
+}
+
+.infobar {
+    color: #ffffff;
+    line-height: 21px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 15px auto auto;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.infobar table {
+    border-bottom: 1px solid #000000;
+    background-color: #9198c2;
+}
+
+
+.postcontent {
+    position: relative;
+    height: auto;
+    line-height: 21px;
+    width: 70%;
+    margin: auto auto;
+    overflow: hidden;
+}
+
+.userinfo{
+    text-align: center;
+    border-right: #cccccc 1px solid;
+    width: 15%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    min-width: 165px;
+    height: 100%;
+}
+
+.posttable {
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.posttext {
+    padding-top: 10px;
+    vertical-align: top;
+}
+
+.admintitle strong {
+    padding: 3px;
+    background-color: #1d1baf;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+
+.reactioncontent {
+    position: relative;
+    height: auto;
+    line-height: 21px;
+    width: 70%;
+    margin: auto auto;
+    overflow: hidden;
+    border-bottom: gray 1px solid;
+}
+
+.reactionbox {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: auto;
+    background-color: #9198c2;
+}
