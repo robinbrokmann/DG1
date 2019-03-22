@@ -180,3 +180,11 @@ table {
     height: auto;
     background-color: #9198c2;
 }
+.welkom{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    font-family: "Arial Black", serif;
+    color: #f9ffef;
+
+}
